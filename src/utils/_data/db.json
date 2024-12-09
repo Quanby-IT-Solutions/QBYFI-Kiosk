@@ -1,0 +1,620 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to Computer Science",
+      "code": "CS101",
+      "credits": 3,
+      "department": "Computer Science",
+      "description": "An introductory course to computer science, focusing on programming and computational thinking.",
+      "imageUrl": "https://via.placeholder.com/150/0000FF/FFFFFF?text=CS101",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Calculus I",
+      "code": "MATH101",
+      "credits": 4,
+      "department": "Mathematics",
+      "description": "An introductory course in calculus, covering limits, derivatives, and integrals.",
+      "imageUrl": "https://via.placeholder.com/150/FF0000/FFFFFF?text=MATH101",
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "name": "General Chemistry",
+      "code": "CHEM101",
+      "credits": 4,
+      "department": "Chemistry",
+      "description": "An introductory course in general chemistry, focusing on chemical reactions and lab work.",
+      "imageUrl": "https://via.placeholder.com/150/00FF00/FFFFFF?text=CHEM101",
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "name": "Introduction to Psychology",
+      "code": "PSY101",
+      "credits": 3,
+      "department": "Psychology",
+      "description": "Introduction to the study of human behavior and mental processes.",
+      "imageUrl": "https://via.placeholder.com/150/FF00FF/FFFFFF?text=PSY101",
+      "isActive": true
+    },
+    {
+      "id": 5,
+      "name": "World History",
+      "code": "HIST101",
+      "credits": 3,
+      "department": "History",
+      "description": "A broad overview of world history, from ancient civilizations to the modern era.",
+      "imageUrl": "https://via.placeholder.com/150/FFFF00/FFFFFF?text=HIST101",
+      "isActive": true
+    },
+    {
+      "id": 6,
+      "name": "Principles of Economics",
+      "code": "ECON101",
+      "credits": 3,
+      "department": "Economics",
+      "description": "Basic principles of microeconomics and macroeconomics.",
+      "imageUrl": "https://via.placeholder.com/150/00FFFF/FFFFFF?text=ECON101",
+      "isActive": false
+    },
+    {
+      "id": 7,
+      "name": "Introduction to Sociology",
+      "code": "SOC101",
+      "credits": 3,
+      "department": "Sociology",
+      "description": "An overview of societal structures and human interaction.",
+      "imageUrl": "https://via.placeholder.com/150/FF8000/FFFFFF?text=SOC101",
+      "isActive": true
+    },
+    {
+      "id": 8,
+      "name": "English Composition",
+      "code": "ENG101",
+      "credits": 3,
+      "department": "English",
+      "description": "Focuses on improving writing skills, with an emphasis on essays and compositions.",
+      "imageUrl": "https://via.placeholder.com/150/800080/FFFFFF?text=ENG101",
+      "isActive": true
+    },
+    {
+      "id": 9,
+      "name": "Introduction to Philosophy",
+      "code": "PHIL101",
+      "credits": 3,
+      "department": "Philosophy",
+      "description": "An exploration of fundamental philosophical questions and theories.",
+      "imageUrl": "https://via.placeholder.com/150/008080/FFFFFF?text=PHIL101",
+      "isActive": false
+    },
+    {
+      "id": 10,
+      "name": "Biology I",
+      "code": "BIO101",
+      "credits": 4,
+      "department": "Biology",
+      "description": "An introduction to biological principles, including cell biology and genetics.",
+      "imageUrl": "https://via.placeholder.com/150/FFC0CB/FFFFFF?text=BIO101",
+      "isActive": true
+    },
+    {
+      "id": 11,
+      "name": "Introduction to Art",
+      "code": "ART101",
+      "credits": 3,
+      "department": "Art",
+      "description": "An introductory course exploring various forms of art and their historical significance.",
+      "imageUrl": "https://via.placeholder.com/150/000000/FFFFFF?text=ART101",
+      "isActive": true
+    },
+    {
+      "id": 12,
+      "name": "Introduction to Music",
+      "code": "MUS101",
+      "credits": 3,
+      "department": "Music",
+      "description": "A survey of music history and theory, focusing on different genres and periods.",
+      "imageUrl": "https://via.placeholder.com/150/FFFFFF/000000?text=MUS101",
+      "isActive": true
+    },
+    {
+      "id": 13,
+      "name": "Introduction to Political Science",
+      "code": "POL101",
+      "credits": 3,
+      "department": "Political Science",
+      "description": "A foundational course in political systems, ideologies, and government structures.",
+      "imageUrl": "https://via.placeholder.com/150/FF4500/FFFFFF?text=POL101",
+      "isActive": true
+    },
+    {
+      "id": 14,
+      "name": "Introduction to Anthropology",
+      "code": "ANTH101",
+      "credits": 3,
+      "department": "Anthropology",
+      "description": "An exploration of human societies, cultures, and their development.",
+      "imageUrl": "https://via.placeholder.com/150/00CED1/FFFFFF?text=ANTH101",
+      "isActive": true
+    },
+    {
+      "id": 15,
+      "name": "Introduction to Astronomy",
+      "code": "ASTR101",
+      "credits": 3,
+      "department": "Astronomy",
+      "description": "A beginner's guide to the study of celestial objects and the universe.",
+      "imageUrl": "https://via.placeholder.com/150/FFD700/FFFFFF?text=ASTR101",
+      "isActive": true
+    },
+    {
+      "id": 16,
+      "name": "Introduction to Environmental Science",
+      "code": "ENV101",
+      "credits": 3,
+      "department": "Environmental Science",
+      "description": "Covers key topics in environmental science, including ecosystems, pollution, and conservation.",
+      "imageUrl": "https://via.placeholder.com/150/98FB98/FFFFFF?text=ENV101",
+      "isActive": false
+    },
+    {
+      "id": 17,
+      "name": "Introduction to Business",
+      "code": "BUS101",
+      "credits": 3,
+      "department": "Business",
+      "description": "An overview of business principles and practices, including management and entrepreneurship.",
+      "imageUrl": "https://via.placeholder.com/150/FF69B4/FFFFFF?text=BUS101",
+      "isActive": true
+    },
+    {
+      "id": 18,
+      "name": "Introduction to Marketing",
+      "code": "MKT101",
+      "credits": 3,
+      "department": "Marketing",
+      "description": "An introduction to marketing strategies, consumer behavior, and market research.",
+      "imageUrl": "https://via.placeholder.com/150/ADD8E6/FFFFFF?text=MKT101",
+      "isActive": true
+    },
+    {
+      "id": 19,
+      "name": "Introduction to Finance",
+      "code": "FIN101",
+      "credits": 3,
+      "department": "Finance",
+      "description": "Covers basic finance principles, including investment, budgeting, and financial analysis.",
+      "imageUrl": "https://via.placeholder.com/150/800000/FFFFFF?text=FIN101",
+      "isActive": false
+    },
+    {
+      "id": 20,
+      "name": "Introduction to Engineering",
+      "code": "ENGR101",
+      "credits": 3,
+      "department": "Engineering",
+      "description": "Provides a broad overview of the engineering field, with an introduction to key concepts and disciplines.",
+      "imageUrl": "https://via.placeholder.com/150/B0E0E6/FFFFFF?text=ENGR101",
+      "isActive": true
+    }
+  ],
+  "users": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "email": "john.doe@example.com",
+      "first_name": "John",
+      "last_name": "Doe",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "Software developer with 10 years of experience.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=john",
+      "date_of_birth": "1985-05-15",
+      "phone_number": "+1234567890",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z",
+      "status": "online"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "email": "jane.smith@example.com",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "Project manager with 5 years of experience.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=jane",
+      "date_of_birth": "1990-07-20",
+      "phone_number": "+0987654321",
+      "created_at": "2023-01-02T12:00:00Z",
+      "updated_at": "2023-01-02T12:00:00Z",
+      "status": "offline"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "email": "alice.jones@example.com",
+      "first_name": "Alice",
+      "last_name": "Jones",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "UX designer with a passion for creating intuitive user experiences.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=alice",
+      "date_of_birth": "1988-03-22",
+      "phone_number": "+1122334455",
+      "created_at": "2023-01-03T12:00:00Z",
+      "updated_at": "2023-01-03T12:00:00Z",
+      "status": "online"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "email": "bob.brown@example.com",
+      "first_name": "Bob",
+      "last_name": "Brown",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "Data scientist with expertise in machine learning and AI.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=bob",
+      "date_of_birth": "1982-11-11",
+      "phone_number": "+2233445566",
+      "created_at": "2023-01-04T12:00:00Z",
+      "updated_at": "2023-01-04T12:00:00Z",
+      "status": "offline"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "email": "carol.white@example.com",
+      "first_name": "Carol",
+      "last_name": "White",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "Marketing specialist with a focus on digital marketing strategies.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=carol",
+      "date_of_birth": "1992-06-30",
+      "phone_number": "+3344556677",
+      "created_at": "2023-01-05T12:00:00Z",
+      "updated_at": "2023-01-05T12:00:00Z",
+      "status": "online"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "email": "dave.green@example.com",
+      "first_name": "Dave",
+      "last_name": "Green",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "Network engineer with experience in large-scale network infrastructure.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=dave",
+      "date_of_birth": "1987-02-14",
+      "phone_number": "+4455667788",
+      "created_at": "2023-01-06T12:00:00Z",
+      "updated_at": "2023-01-06T12:00:00Z",
+      "status": "offline"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "email": "eve.black@example.com",
+      "first_name": "Eve",
+      "last_name": "Black",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "HR manager with a focus on employee engagement and development.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=eve",
+      "date_of_birth": "1995-09-09",
+      "phone_number": "+5566778899",
+      "created_at": "2023-01-07T12:00:00Z",
+      "updated_at": "2023-01-07T12:00:00Z",
+      "status": "online"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "email": "frank.gray@example.com",
+      "first_name": "Frank",
+      "last_name": "Gray",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "DevOps engineer with a background in cloud infrastructure.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=frank",
+      "date_of_birth": "1983-12-25",
+      "phone_number": "+6677889900",
+      "created_at": "2023-01-08T12:00:00Z",
+      "updated_at": "2023-01-08T12:00:00Z",
+      "status": "offline"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "email": "grace.blue@example.com",
+      "first_name": "Grace",
+      "last_name": "Blue",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "Content writer with a knack for creating engaging content.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=grace",
+      "date_of_birth": "1991-04-18",
+      "phone_number": "+7788990011",
+      "created_at": "2023-01-09T12:00:00Z",
+      "updated_at": "2023-01-09T12:00:00Z",
+      "status": "online"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "email": "henry.red@example.com",
+      "first_name": "Henry",
+      "last_name": "Red",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "bio": "Sales manager with a proven track record in B2B sales.",
+      "avatar_url": "https://api.dicebear.com/9.x/adventurer/svg?seed=henry",
+      "date_of_birth": "1989-08-08",
+      "phone_number": "+8899001122",
+      "created_at": "2023-01-10T12:00:00Z",
+      "updated_at": "2023-01-10T12:00:00Z",
+      "status": "offline"
+    }
+  ],
+  "userRoles": [
+    {
+      "id": 1,
+      "userId": "550e8400-e29b-41d4-a716-446655440000",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "userId": "550e8400-e29b-41d4-a716-446655440001",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "userId": "550e8400-e29b-41d4-a716-446655440002",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "userId": "550e8400-e29b-41d4-a716-446655440003",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "userId": "550e8400-e29b-41d4-a716-446655440004",
+      "role": "user"
+    },
+    {
+      "id": 6,
+      "userId": "550e8400-e29b-41d4-a716-446655440005",
+      "role": "user"
+    },
+    {
+      "id": 7,
+      "userId": "550e8400-e29b-41d4-a716-446655440006",
+      "role": "user"
+    },
+    {
+      "id": 8,
+      "userId": "550e8400-e29b-41d4-a716-446655440007",
+      "role": "user"
+    },
+    {
+      "id": 9,
+      "userId": "550e8400-e29b-41d4-a716-446655440008",
+      "role": "user"
+    },
+    {
+      "id": 10,
+      "userId": "550e8400-e29b-41d4-a716-446655440009",
+      "role": "user"
+    }
+  ],
+  "roles": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Admin",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "description": "Administrator role with full permissions.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "User",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "description": "Standard user role with limited permissions.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Manager",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "description": "Manager role with permissions to oversee projects and teams.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "name": "Guest",
+      "organization_id": "550e8400-e29b-41d4-a716-446655440001",
+      "description": "Guest role with read-only permissions.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    }
+  ],
+  "rolePermissions": [
+    {
+      "id": 1,
+      "role": "admin",
+      "permission": "read"
+    },
+    {
+      "id": 2,
+      "role": "admin",
+      "permission": "write"
+    },
+    {
+      "id": 3,
+      "role": "user",
+      "permission": "read"
+    },
+    {
+      "id": 4,
+      "role": "manager",
+      "permission": "read"
+    },
+    {
+      "id": 5,
+      "role": "manager",
+      "permission": "write"
+    },
+    {
+      "id": 6,
+      "role": "guest",
+      "permission": "read"
+    }
+  ],
+  "permissions": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "roleId": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Read",
+      "description": "Permission to read data.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "roleId": "550e8400-e29b-41d4-a716-446655440002",
+      "name": "Write",
+      "description": "Permission to write data.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "roleId": "550e8400-e29b-41d4-a716-446655440003",
+      "name": "Read",
+      "description": "Permission to read data.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "roleId": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Read",
+      "description": "Permission to read data.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "roleId": "550e8400-e29b-41d4-a716-446655440004",
+      "name": "Write",
+      "description": "Permission to write data.",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "name": "Quanby IT Solutions",
+      "domain": "quanby.com",
+      "website": "https://quanby.com",
+      "created_at": "2023-01-01T12:00:00Z",
+      "updated_at": "2023-01-01T12:00:00Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "insertedAt": "2023-01-01T12:00:00Z",
+      "message": "Hello, world!",
+      "userId": "550e8400-e29b-41d4-a716-446655440000",
+      "channelId": 1
+    },
+    {
+      "id": 2,
+      "insertedAt": "2023-01-02T12:00:00Z",
+      "message": "Good morning, team!",
+      "userId": "550e8400-e29b-41d4-a716-446655440001",
+      "channelId": 1
+    },
+    {
+      "id": 3,
+      "insertedAt": "2023-01-03T12:00:00Z",
+      "message": "Let's discuss the new project.",
+      "userId": "550e8400-e29b-41d4-a716-446655440002",
+      "channelId": 1
+    },
+    {
+      "id": 4,
+      "insertedAt": "2023-01-04T12:00:00Z",
+      "message": "I have updated the documentation.",
+      "userId": "550e8400-e29b-41d4-a716-446655440003",
+      "channelId": 1
+    },
+    {
+      "id": 5,
+      "insertedAt": "2023-01-05T12:00:00Z",
+      "message": "Please review the latest changes.",
+      "userId": "550e8400-e29b-41d4-a716-446655440004",
+      "channelId": 1
+    },
+    {
+      "id": 6,
+      "insertedAt": "2023-01-06T12:00:00Z",
+      "message": "The server maintenance is scheduled for tonight.",
+      "userId": "550e8400-e29b-41d4-a716-446655440005",
+      "channelId": 1
+    },
+    {
+      "id": 7,
+      "insertedAt": "2023-01-07T12:00:00Z",
+      "message": "HR meeting at 3 PM.",
+      "userId": "550e8400-e29b-41d4-a716-446655440006",
+      "channelId": 1
+    },
+    {
+      "id": 8,
+      "insertedAt": "2023-01-08T12:00:00Z",
+      "message": "Deployment completed successfully.",
+      "userId": "550e8400-e29b-41d4-a716-446655440007",
+      "channelId": 1
+    },
+    {
+      "id": 9,
+      "insertedAt": "2023-01-09T12:00:00Z",
+      "message": "New blog post is live.",
+      "userId": "550e8400-e29b-41d4-a716-446655440008",
+      "channelId": 1
+    },
+    {
+      "id": 10,
+      "insertedAt": "2023-01-10T12:00:00Z",
+      "message": "Sales report for Q1 is ready.",
+      "userId": "550e8400-e29b-41d4-a716-446655440009",
+      "channelId": 1
+    }
+  ],
+  "channels": [
+    {
+      "id": 1,
+      "insertedAt": "2023-01-01T12:00:00Z",
+      "slug": "general",
+      "createdBy": "550e8400-e29b-41d4-a716-446655440000"
+    },
+    {
+      "id": 2,
+      "insertedAt": "2023-01-02T12:00:00Z",
+      "slug": "development",
+      "createdBy": "550e8400-e29b-41d4-a716-446655440001"
+    },
+    {
+      "id": 3,
+      "insertedAt": "2023-01-03T12:00:00Z",
+      "slug": "marketing",
+      "createdBy": "550e8400-e29b-41d4-a716-446655440002"
+    },
+    {
+      "id": 4,
+      "insertedAt": "2023-01-04T12:00:00Z",
+      "slug": "design",
+      "createdBy": "550e8400-e29b-41d4-a716-446655440003"
+    },
+    {
+      "id": 5,
+      "insertedAt": "2023-01-05T12:00:00Z",
+      "slug": "sales",
+      "createdBy": "550e8400-e29b-41d4-a716-446655440004"
+    }
+  ]
+}
