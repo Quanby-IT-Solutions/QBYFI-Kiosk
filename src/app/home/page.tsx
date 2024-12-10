@@ -135,40 +135,49 @@ const HomePage: React.FC = () => {
           </div>
 
           {/* Base Transaction Page */}
-          <div className="w-screen h-screen flex flex-col items-center justify-center gap-y-10 text-black">
-            <div>
-              <p className="text-6xl font-semibold">
-                Please insert coin on the machine to start
-              </p>
-            </div>
-            <div className="w-fit h-fit flex items-center gap-4">
-              <div>
-                <p className="text-3xl font-medium">Coins inserted:</p>
-              </div>
-              <div className="w-fit h-fit py-2 px-16 border-2 border-black rounded-xl">
-                <p className="text-3xl font-extrabold">{coinsInserted}.00</p>
-              </div>
-            </div>
-            <div className="flex flex-wrap justify-center gap-8">
-              {packages.map((pkg, index) => (
-                <CardPackage
-                  key={index}
-                  time={pkg.time}
-                  amount={pkg.amount}
-                  dimmed={
-                    coinsInserted < pkg.amount ||
-                    (selectedPackage !== null && selectedPackage !== index)
-                  }
-                  highlighted={selectedPackage === index}
-                  onClick={() => handleSelectPackage(index)}
-                />
-              ))}
-            </div>
-            <BuyButton
-              isActive={selectedPackage !== null}
-              onClick={onConfirmOpen}
-              className="z-10"
+          <div className="w-full h-screen pt-24 flex flex-col items-center justify-top">
+            <Image
+              src="/Q-Logo.png"
+              width={185}
+              height={130}
+              alt="Task example"
+              className="object-cover pb-24 rounded-lg"
             />
+            <div className="w-fit h-fit flex flex-col items-center justify-center gap-10 text-black">
+              <div>
+                <p className="text-6xl font-semibold">
+                  Please insert coin on the machine to start
+                </p>
+              </div>
+              <div className="w-fit h-fit flex items-center gap-4">
+                <div>
+                  <p className="text-3xl font-medium">Coins inserted:</p>
+                </div>
+                <div className="w-fit h-fit py-2 px-16 border-2 border-black rounded-xl">
+                  <p className="text-3xl font-extrabold">{coinsInserted}.00</p>
+                </div>
+              </div>
+              <div className="flex flex-wrap justify-center gap-8">
+                {packages.map((pkg, index) => (
+                  <CardPackage
+                    key={index}
+                    time={pkg.time}
+                    amount={pkg.amount}
+                    dimmed={
+                      coinsInserted < pkg.amount ||
+                      (selectedPackage !== null && selectedPackage !== index)
+                    }
+                    highlighted={selectedPackage === index}
+                    onClick={() => handleSelectPackage(index)}
+                  />
+                ))}
+              </div>
+              <BuyButton
+                isActive={selectedPackage !== null}
+                onClick={onConfirmOpen}
+                className="z-10"
+              />
+            </div>
           </div>
 
           {/* Confirmation Modal */}
@@ -230,7 +239,7 @@ const HomePage: React.FC = () => {
             isOpen={isOutroOpen}
             onOpenChange={onOutroOpenChange}
           >
-            <div className="relative w-screen h-screen">
+            <div className="relative flex w-screen h-screen items-center justify-center">
               <div className="absolute z-10 w-full -top-28 -left-80">
                 <Image
                   src="/Top.png"
@@ -240,13 +249,13 @@ const HomePage: React.FC = () => {
                   className="w-full object-cover"
                 />
               </div>
-              <div className="w-full h-full flex flex-col items-center justify-center">
+              <div className="w-fit h-fit flex flex-col items-center justify-start">
                 <Image
                   src="/QBYFI-Logo.png"
                   width={370}
                   height={260}
                   alt="Task example"
-                  className="object-cover rounded-lg"
+                  className="object-cover pb-24 rounded-lg"
                 />
 
                 <div className="w-full h-full flex flex-col items-center justify-center gap-y-10 text-black">
