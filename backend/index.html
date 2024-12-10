@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Acceptor</title>
+    
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+    <h1>Coin Acceptor</h1>
+    <button id="start-btn">Start Coin Acceptance</button>
+    <p id="status">Status: Idle</p>
+    <p id="coin-count">Total Coins Inserted: 0</p>
+    <button id="finish-btn">Finish Coin Insertion</button>
+    <p id="voucher">Voucher: <span id="voucher-code">None</span></p>
+    
+    <script>
+        const socket = io();
+
+        document.getElementById('start-btn').addEventListener('click', () => {
+            socket.emit('start_coin_acceptance');
+            document.getElementById('status').innerText = 'Status: Coin acceptance started';
+        });
+
+        document.getElementById('finish-btn').addEventListener('click', () => {
+            socket.emit('finish_insertion');
+        });
+
+        socket.on('message', (data) => {
+            document.getElementById('status').innerText = `Status: ${data.status}`;
+            if (data.coin_count) {
+                document.getElementById('coin-count').innerText = `Total Coins Inserted: ${data.coin_count}`;
+            }
+        });
+
+        socket.on('coin_update', (data) => {
+            document.getElementById('coin-count').innerText = `Total Coins Inserted: ${data.coin_count}`;
+        });
+        
+        socket.on('voucher_dispensed', (data) => {
+			document.getElementById('voucher-code').innerText = data.voucher_code || 'No voucher available';
+			document.getElementById('status').innterText = 'Status: Process completed';
+		});
+    </script>
+</body>
+</html>
