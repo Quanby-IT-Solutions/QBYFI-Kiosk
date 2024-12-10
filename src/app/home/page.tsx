@@ -29,15 +29,12 @@ const packages: PackageCards[] = [
 ];
 
 const HomePage: React.FC = () => {
-  const [loading, setLoading] = useState(true);
 
   const {
     isOpen: isIntroOpen,
     onOpen: onIntroOpen,
     onOpenChange: onIntroOpenChange,
-  } = useDisclosure({
-    onClose: () => setLoading(false),
-  });
+  } = useDisclosure();
 
   const {
     isOpen: isConfirmOpen,
@@ -74,7 +71,6 @@ const HomePage: React.FC = () => {
   return (
     <motion.main className="p-0 gap-10 overflow-clip">
       {/* Display the intro modal while loading */}
-      {loading ? (
         <FullModal
           dissmissable={false}
           isOpen={isIntroOpen}
@@ -122,7 +118,7 @@ const HomePage: React.FC = () => {
             </div>
           </div>
         </FullModal>
-      ) : (
+        
         <div className="relative">
           <div className="absolute z-10 w-full -top-28 -left-80">
             <Image
@@ -321,7 +317,6 @@ const HomePage: React.FC = () => {
             />
           </div>
         </div>
-      )}
     </motion.main>
   );
 };

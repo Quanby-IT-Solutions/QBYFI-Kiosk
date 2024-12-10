@@ -3,12 +3,8 @@
 import {
   Modal,
   ModalContent,
-  ModalHeader,
   ModalBody,
-  ModalFooter,
-  useDisclosure,
 } from "@nextui-org/react";
-import { Button } from "@nextui-org/react";
 import React from "react";
 
 export const FullModal = ({
